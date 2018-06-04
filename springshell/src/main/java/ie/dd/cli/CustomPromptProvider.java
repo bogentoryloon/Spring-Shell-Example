@@ -1,4 +1,4 @@
-package com.liutaohua.springshell.commands;
+package ie.dd.cli;
 
 import org.springframework.core.annotation.Order;
 import org.springframework.shell.plugin.PromptProvider;
@@ -12,11 +12,11 @@ import org.springframework.stereotype.Component;
 public class CustomPromptProvider implements PromptProvider {
 
 	public String getPrompt() {
-		return "liutaohua-shell>";
+		return "servermgr>";
 	}
 
 	public String getProviderName() {
-		return "LiuTaoHuaShell";
+		return "ServerManager";
 	}
 
 }

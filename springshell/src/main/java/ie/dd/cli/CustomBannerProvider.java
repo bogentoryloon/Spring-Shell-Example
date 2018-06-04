@@ -1,12 +1,9 @@
-package com.liutaohua.springshell.commands;
+package ie.dd.cli;
 
 import org.springframework.core.annotation.Order;
 import org.springframework.shell.plugin.BannerProvider;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by Liutaohua on 2016/1/25 0025.
- */
 
 @Component
 @Order(1)
@@ -21,10 +18,10 @@ public class CustomBannerProvider implements BannerProvider {
 	}
 
 	public String getWelcomeMessage() {
-		return "Welcome to use LiuTaoHuaShell,You can input help to get more tip";
+		return "Welcome to use server manager, help is available ";
 	}
 
 	public String getProviderName() {
-		return "LiuTaoHuaShell";
+		return "ServerMgr";
 	}
 }

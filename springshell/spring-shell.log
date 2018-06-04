@@ -14,3 +14,58 @@ hd show --name liutaohua
 hd show --name liutaohua
 // null 1.2.0.M1 log opened at 2016-03-07 19:33:57
 hd show --name liutaohua
+// LiuTaoHuaShell 1.2.0.RELEASE log opened at 2018-06-04 18:18:31
+// null 1.2.0.RELEASE log opened at 2018-06-04 18:21:49
+hd show --name liutaohua
+// null 1.2.0.RELEASE log opened at 2018-06-04 18:22:44
+hd show --name liutaohua
+// LiuTaoHuaShell 1.2.0.RELEASE log opened at 2018-06-04 18:24:08
+// LiuTaoHuaShell 1.2.0.RELEASE log opened at 2018-06-04 19:37:38
+// LiuTaoHuaShell 1.2.0.RELEASE log opened at 2018-06-04 19:38:41
+// ServerMgr 1.2.0.RELEASE log opened at 2018-06-04 20:01:26
+// null 1.2.0.RELEASE log opened at 2018-06-04 20:09:19
+hd show --name liutaohua
+// ServerMgr 1.2.0.RELEASE log opened at 2018-06-04 20:09:47
+help
+exit
+// ServerMgr 1.2.0.RELEASE log closed at 2018-06-04 20:14:57
+// null 1.2.0.RELEASE log opened at 2018-06-04 20:15:24
+hd show --name liutaohua
+// ServerMgr 1.2.0.RELEASE log opened at 2018-06-04 20:15:31
+help
+countServers
+exit
+// ServerMgr 1.2.0.RELEASE log closed at 2018-06-04 20:19:20
+// null 1.2.0.RELEASE log opened at 2018-06-04 20:30:01
+hd show --name liutaohua
+// ServerMgr 1.2.0.RELEASE log opened at 2018-06-04 20:30:07
+help
+addServer --id 1 --name fred --description "yad yad"
+help addServer
+quit
+// ServerMgr 1.2.0.RELEASE log closed at 2018-06-04 20:34:57
+// null 1.2.0.RELEASE log opened at 2018-06-04 20:39:56
+addServer --id 1 --name MyServer --description "Big and Shiny"
+// null 1.2.0.RELEASE log opened at 2018-06-04 20:40:10
+addServer --id 1 --name MyServer --description "Big and Shiny"
+// ServerMgr 1.2.0.RELEASE log opened at 2018-06-04 20:40:17
+help
+system properties
+quit
+// ServerMgr 1.2.0.RELEASE log closed at 2018-06-04 20:42:46
+// Spring Shell 1.2.0.RELEASE log opened at 2018-06-04 20:44:57
+// Spring Shell 1.2.0.RELEASE log opened at 2018-06-04 20:46:53
+help
+exit
+// Spring Shell 1.2.0.RELEASE log closed at 2018-06-04 20:47:32
+// ServerMgr 1.2.0.RELEASE log opened at 2018-06-04 20:47:47
+help
+// null 1.2.0.RELEASE log opened at 2018-06-04 20:49:23
+addServer --id 1 --name MyServer --description "Big and Shiny"
+exit
+// ServerMgr 1.2.0.RELEASE log closed at 2018-06-04 20:49:31
+// null 1.2.0.RELEASE log opened at 2018-06-04 20:49:51
+addServer --id 1 --name MyServer --description "Big and Shiny"
+// ServerMgr 1.2.0.RELEASE log opened at 2018-06-04 20:49:54
+quit
+// ServerMgr 1.2.0.RELEASE log closed at 2018-06-04 20:49:58
